@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Digita la siguiente informacion</h1>
-    <form action="03_metodoget.php" method="post">
+    <form action="03_metodoget.php" method="get">
         Nombre:
         <input type="text" name="nombre"/>
         <br>
@@ -18,7 +18,7 @@
     </form>
     <h2>La informacion enviada es: </h2>
     <?php
-    print_r($_POST);
+    print_r($_GET);
     ?>
 </body>
 </html>
